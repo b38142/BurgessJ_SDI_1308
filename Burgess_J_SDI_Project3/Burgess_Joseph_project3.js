@@ -8,21 +8,6 @@
 
 
 
-
-// Accessor Method:
-
-// After purchasing my car from the dealership and becoming chummy with my salesman. He allowed me
-//to shadow him for a day. He showed me where new and used cars are washed and gassed up for customers.
-
-
-// var Test from the Homework example:
-var handleData = function(json) {
-console.log ( "Hello, everyone");
-
-};
-
-handleData()
-
 // convert javascript object a string
 var jsonstring = JSON.stringify(jsonCarInfo);
 console.log(jsonstring);
@@ -32,7 +17,7 @@ console.log(jsonstring);
 var receivedjson = JSON.parsel(jsonstring);
 
 // Global variables
-var salesman = "Henry" ,
+var carSalesman = "Henry" ,
 	carNumber = receivedjson["cars"];
 	sellingCars = true;
 	
@@ -55,5 +40,24 @@ var carSalesman = {
 		carSalesman.say('Today\'s not a good month for sales.');
 		}; // End my object
 },
+	// Adding Method procedure
+		CarNum: function(carDetails, vehicleId) {
+			if (carDetails === true) {
+			carSalesman.say( "I say we start with checking our inventory.");
+			for ( var n=0; n<=vehicleId; n++){
+			var carsToWash = n;
+			carSalesman.say(carsToWash);
+			}
+			carSalesman.say(" cars that need to be washed. ");
+			return carDetails;
+			} else {
+			carSalesman.say("Fancy that, their already clean!");
+			};
+},
+	retreiveCarName: function(name){
+		var carName = name;
+		return carName;
+		}, // End of Method procedure
+		
 };
 		
