@@ -39,11 +39,21 @@ var salesman = "Henry" ,
 // my object
 var carSalesman = {
 	name:		"Henry Shellfish",// property
-	position:	"Car Salesman" ,
-	previousJobs: ["Carmax" , "Drive Time" ],
-	announce: function(message) {
-	var quotes = "\";
+	title:	"Car Salesman" ,
+	previousJobs: ["Grand Strand Nissan" , "Drive Time" , "Carmax"],
+	say: function(message) {
+	var quotes = "\"";
 	announcement = quotes + message + quotes;
 	console.log(announcement);
 	},
-	
+	carCheckList: function(carsWeNeedToMove) {
+		var carDetails = carsWeNeedToMove;
+		if (carDetails === true) {
+			carSalesman.say("You ready to see what it takes to be a" + sellingCars + " car salesman.");
+			carSalesman.carNum(carDetails, vehicleId);
+			}else{
+		carSalesman.say('Today\'s not a good month for sales.');
+		}; // End my object
+},
+};
+		
