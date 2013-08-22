@@ -69,5 +69,22 @@ var carSalesman = {
 			var vehiclesLeft= vehicles - VehiclesGassed;
 			carSalesman.say(vehiclesLeft + "waiting to be topped off.");
 			};
+}// Method Accessor
+	retreiveData: function(json) {
+		var i = 0;
+		while (i<json.cars.length){
+			var car = json.cars[i];
+			carSalesman.say("The vin # for" + cars.name + "is" + cars.vinNum + "it uses" + cars.fuel + "fuel.");
+			i++;
+		};
+		return json;
+	},
+	retreiveCars: function() {
+	for (var n=0; n < receivedjson["cars"].length;n++) {
+		var name = receivedjson["cars"][n].name;
+		carSalesman.say('We\'ll gas up the' + name + "now.");// End of string
+		}
+		};
+			
 
 		
