@@ -86,5 +86,21 @@ var carSalesman = {
 		}
 		};
 			
+	// Method Mutator
+	carGas: function(name, fuel){
+	var gasTank = [];
+	var pumpGas = function(item) {
+		if (item == fuel) {
+			gasTank.push(item);
+			carSalesman.say(gasTank);
+		} else {
+			carSalesman.say("Uhm, make sure you double check your fuel type....");
+			}
+		}
+		var pumpGas = " If everything is OK, please pump " + fuel + "in the " + name + ".";
+		carSalesman.say(pumpGas);
+		}
+	},
 
+	
 		
