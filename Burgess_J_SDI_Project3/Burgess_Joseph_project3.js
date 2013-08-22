@@ -59,5 +59,15 @@ var carSalesman = {
 		return carName;
 		}, // End of Method procedure
 		
-};
+	//method Function
+	carwash: function(wash){
+		carSalesman.say(" Ya know, it's too hot to wash cars today. How about we gas up these" + vehicles);
+		var vehicles = vehicles.length;
+		for (var vehicleGassed=0; vehicleGassed < vehicles; vehicleGassed +=1) {
+		carSalesman.say(vehicleGassed + " vehicles are gassed up! ");
+		if (vehicles > vehiclesCleaned) {
+			var vehiclesLeft= vehicles - VehiclesGassed;
+			carSalesman.say(vehiclesLeft + "waiting to be topped off.");
+			};
+
 		

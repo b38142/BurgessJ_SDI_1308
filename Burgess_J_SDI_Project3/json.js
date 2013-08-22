@@ -8,7 +8,7 @@ var jsonCarInfo = {
 	"cars" : [
 		{
 			"vinNum": "12342013006",
-			"name": "1234Maxima" ,
+			"name": "Maxima" ,
 			"fuel": "Premium"
 		},
 		{
