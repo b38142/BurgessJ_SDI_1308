@@ -8,22 +8,22 @@ var jsonCarInfo = {
 	"cars" : [
 		{
 			"vinNum": "12342013006",
-			"name": "Maxima" ,
+			"names": "Maxima" ,
 			"fuel": "Premium"
 		},
 		{
 			"vinNUm": "12342013007",
-			"name": "Altima" ,
+			"names": "Altima" ,
 			"fuel": "Plus"
 		},
 		{
 			"vinNum": "12342013008",
-			"name": "Sentra" ,
+			"names": "Sentra" ,
 			"fuel": "Regular"
 		},
 		{
 			"vinNum": "12342013009",
-			"name": "Versa" ,
+			"names": "Versa" ,
 			"fuel": "Regular"
 		}
 	]
