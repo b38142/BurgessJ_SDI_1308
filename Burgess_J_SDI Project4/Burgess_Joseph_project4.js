@@ -30,20 +30,24 @@
 	}
 	else {
 		return (email + " is not valid. "); }
-	}; //End of aaa@bbb.cccc function
+	}; 													//End of aaa@bbb.cccc function
+	
+	
 	
 	//Number Function  •2
 // Format a number to use a specific number of decimal places, as for money:2.1 -->2.10.
 	var checkDecimals = function (num) {
-	return num.toFixed(2);
-	}
+	return num.toFixed(2); 
+	}	// End Number function
+	
+	
 var joesFunclibrary = function() {
 
 // Number Function 2   •3
 //Given a string version of a number, such as "42" return the value as an actual Number data type such as 42.
 	var convertString = function(string) {
 	var dheckNumb = string -0;
-		return checkNumb	};
+		return checkNumb	}; // End Number function2
 	
 	};
 
@@ -64,6 +68,36 @@ var joesFunclibrary = function() {
 			
 			*/
 				//
+				
+			//}
+/*// Function to find the number above or below a number within a certain percent •5
+
+function fuzzyMatch(val1,val,per)
+{
+	var 
+	
+} // 
+
+
+// Function to Parse Number •6
+function stringToNumber(val)
+{
+	var retVal;
+	if(typeof val=='number')
+	{
+		alert("Already a number :"+val);
+	}
+	else
+	{
+		alert("Converted from String to Number :"+val);
+		retVal = parseInt(val);
+	}
+	return retVal; //End of Parse 
+	
+
+*/
+
+
 console.log(checkEmail ("joeburgess@fullsail.edu"));
 var cash= 10.2;
 console.log(checkDecimals(cash));
