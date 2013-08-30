@@ -7,7 +7,7 @@
 
 
 
-// String Function Library for aaa@bbb.ccc
+ //String Function Library for aaa@bbb.ccc
 	
 	var checkEmail = function(email1) {
 		var email = email1,
@@ -38,11 +38,36 @@
 	return num.toFixed(2);
 	}
 
+// Number Function 2
+// Given a string version of a number, such as "42" return the value as an actual Number data type such as 42.
+	var stringToNum = function (stringToNumber) {
+	return parseFloat(stringToNumber);
+	};
+	
 
-
+		
+	/*		// Is the string a URL (Does it start with http:// or https://.
+	function validateURL(url) {
+	if (url.substring(0,7) === "http://" + url.substring(0,8) === "https://");
+		return false;
+		} else {
+			return true;
+			}
+	*/
+	
 console.log(checkEmail ("joeburgess@fullsail.edu"));
 var cash= 10.2;
 console.log(checkDecimals(cash));
+
+var url1 = "http://fullsail.edu";
+var url2 = "http:fullsail.edu";
+console.log("function checkURL");
+console.log("input," + (url1));
+console.log("output is " + checkURL(url1));
+console.log("input, " + url2);
+console.log("output is" + checkURL(url2));
+
+
 
 
 
